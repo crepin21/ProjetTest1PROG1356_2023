@@ -1,0 +1,57 @@
+/* CSS */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.list-group-item {
+    border: none;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Ajout de styles pour les informations des étudiants et des enseignants */
+.etudiant-info {
+    background-color: #cdd1cd; /* Couleur de fond pour les informations des étudiants */
+    padding: 10px;
+    border: 1px solid #0f0f0f;
+    border-radius: 5px;
+}
+
+.enseignant-info {
+    background-color: #c0c0c4; /* Couleur de fond pour les informations des enseignants */
+    padding: 10px;
+    border: 1px solid #0e0e0ee9;
+    border-radius: 5px;
+}
