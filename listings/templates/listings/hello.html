@@ -17,13 +17,13 @@
                 <div class="card">
                     <div class="card-body">
                         <h1 class="card-title">Etudiant</h1>
-                        {% for enseignant in enseignant %}
+                        {% for etudiant in etudiant %}
                             <ul class="list-group list-group-flush">
                                 <div class="etudiant-info">
-                                    <li class="list-group-item"><strong>Nom :</strong> {{ etudiant.1.name }}</li>
-                                    <li class="list-group-item"><strong>Age :</strong> {{ etudiant.0.age }}</li>
-                                    <li class="list-group-item"><strong>Mail :</strong> {{ etudiant.0.mail }}</li>
-                                    <li class="list-group-item"><strong>Moyenne :</strong> {{ etudiant.0.moyenne }}</li>
+                                    <li class="list-group-item"><strong>Nom :</strong> {{ etudiant.name }}</li>
+                                    <li class="list-group-item"><strong>Age :</strong> {{ etudiant.age }}</li>
+                                    <li class="list-group-item"><strong>Mail :</strong> {{ etudiant.mail }}</li>
+                                    <li class="list-group-item"><strong>Moyenne :</strong> {{ etudiant.moyenne }}</li>
                                     <li class="list-group-item"><strong>Date d'information :</strong> {{ etudiant.0.date }}</li>
                                 </div>
                             </ul>
